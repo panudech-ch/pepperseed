@@ -1,0 +1,109 @@
+[03-Feb-2018 17:46:57 Australia/Perth] PHP Parse error:  syntax error, unexpected 'Order' (T_STRING) in /home/pepperse/public_html/test_mail/sendmail.php on line 24
+[03-Feb-2018 17:48:23 Australia/Perth] PHP Parse error:  syntax error, unexpected 'Order' (T_STRING) in /home/pepperse/public_html/test_mail/sendmail.php on line 24
+[03-Feb-2018 17:49:22 Australia/Perth] PHP Parse error:  syntax error, unexpected '=' in /home/pepperse/public_html/test_mail/sendmail.php on line 35
+[03-Feb-2018 17:49:54 Australia/Perth] PHP Warning:  require(/PHPMailer/src/Exception.php): failed to open stream: No such file or directory in /home/pepperse/public_html/test_mail/sendmail.php on line 4
+[03-Feb-2018 17:49:54 Australia/Perth] PHP Fatal error:  require(): Failed opening required '/PHPMailer/src/Exception.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/pepperse/public_html/test_mail/sendmail.php on line 4
+[03-Feb-2018 20:50:39 Australia/Sydney] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP Error: Could not connect to SMTP host.' in /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php:1898
+Stack trace:
+#0 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1725): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1481): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 3 Fe...', 'test send smtp ...')
+#2 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1320): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/pepperse/public_html/test_mail/sendmail.php(34): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php on line 1898
+[03-Feb-2018 20:57:11 Australia/Sydney] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP Error: Could not authenticate.' in /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php:1911
+Stack trace:
+#0 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1725): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1481): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 3 Fe...', 'test send smtp ...')
+#2 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1320): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/pepperse/public_html/test_mail/sendmail.php(34): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php on line 1911
+[03-Feb-2018 20:58:34 Australia/Sydney] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP Error: Could not connect to SMTP host.' in /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php:1898
+Stack trace:
+#0 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1725): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1481): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 3 Fe...', 'test send smtp ...')
+#2 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1320): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/pepperse/public_html/test_mail/sendmail.php(34): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php on line 1898
+[03-Feb-2018 21:02:00 Australia/Sydney] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP Error: Could not authenticate.' in /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php:1911
+Stack trace:
+#0 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1725): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1481): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 3 Fe...', 'test send smtp ...')
+#2 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1320): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/pepperse/public_html/test_mail/sendmail.php(34): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php on line 1911
+[03-Feb-2018 22:05:41 Australia/Sydney] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP Error: Could not authenticate.' in /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php:1911
+Stack trace:
+#0 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1725): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1481): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 3 Fe...', 'test send smtp ...')
+#2 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1320): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/pepperse/public_html/test_mail/sendmail.php(38): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php on line 1911
+[03-Feb-2018 22:06:50 Australia/Sydney] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP Error: Could not authenticate.' in /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php:1911
+Stack trace:
+#0 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1725): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1481): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 3 Fe...', 'test send smtp ...')
+#2 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1320): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/pepperse/public_html/test_mail/sendmail.php(38): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php on line 1911
+[03-Feb-2018 22:07:09 Australia/Sydney] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP Error: Could not authenticate.' in /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php:1911
+Stack trace:
+#0 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1725): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1481): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 3 Fe...', 'test send smtp ...')
+#2 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1320): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/pepperse/public_html/test_mail/sendmail.php(38): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php on line 1911
+[03-Feb-2018 22:10:27 Australia/Sydney] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP Error: Could not authenticate.' in /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php:1911
+Stack trace:
+#0 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1725): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1481): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 3 Fe...', 'test send smtp ...')
+#2 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1320): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/pepperse/public_html/test_mail/sendmail.php(38): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php on line 1911
+[03-Feb-2018 22:11:42 Australia/Sydney] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP Error: Could not authenticate.' in /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php:1911
+Stack trace:
+#0 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1725): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1481): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 3 Fe...', 'test send smtp ...')
+#2 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1320): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/pepperse/public_html/test_mail/sendmail.php(38): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php on line 1911
+[03-Feb-2018 22:12:23 Australia/Sydney] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP Error: Could not authenticate.' in /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php:1911
+Stack trace:
+#0 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1725): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1481): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 3 Fe...', 'test send smtp ...')
+#2 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1320): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/pepperse/public_html/test_mail/sendmail.php(38): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php on line 1911
+[03-Feb-2018 22:13:31 Australia/Sydney] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP Error: Could not authenticate.' in /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php:1911
+Stack trace:
+#0 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1725): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1481): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 3 Fe...', 'test send smtp ...')
+#2 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1320): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/pepperse/public_html/test_mail/sendmail.php(38): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php on line 1911
+[03-Feb-2018 22:14:28 Australia/Sydney] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP Error: Could not authenticate.' in /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php:1911
+Stack trace:
+#0 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1725): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1481): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 3 Fe...', 'test send smtp ...')
+#2 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1320): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/pepperse/public_html/test_mail/sendmail.php(38): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php on line 1911
+[03-Feb-2018 22:15:24 Australia/Sydney] PHP Fatal error:  Uncaught exception 'PHPMailer\PHPMailer\Exception' with message 'SMTP Error: Could not authenticate.' in /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php:1911
+Stack trace:
+#0 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1725): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1481): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 3 Fe...', 'test send smtp ...')
+#2 /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php(1320): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/pepperse/public_html/test_mail/sendmail.php(38): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/pepperse/public_html/test_mail/PHPMailer/src/PHPMailer.php on line 1911

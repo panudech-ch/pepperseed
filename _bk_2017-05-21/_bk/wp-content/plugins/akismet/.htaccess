@@ -1,0 +1,5 @@
+Require all denied
+
+<FilesMatch "^akismet\.(css|js)$">
+Require all granted
+</FilesMatch>

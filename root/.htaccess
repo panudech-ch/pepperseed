@@ -1,0 +1,20 @@
+
+RewriteOptions inherit
+
+RewriteEngine on
+<IfModule mod_security.c>
+    SecFilterEngine Off
+    SecFilterScanPOST Off
+</IfModule>
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/painpage.php [R=301,L]
+
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^/?$ "https\:\/\/pepperseeds\.com\.au\/painpage\.php" [R=301,L]
+Redirect 301 /menu.php https://pepperseeds.com.au/painpage.php
+Redirect 301 /menushow.php https://pepperseeds.com.au/painpage.php
+
+php_value date.timezone 'Australia/Sydney'

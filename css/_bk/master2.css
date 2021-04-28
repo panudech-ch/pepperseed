@@ -1,0 +1,94 @@
+@charset "utf-8";
+body {
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	font-family: 'Sanchez', serif;
+	font-size: 15px;
+	line-height:22px;
+	color: #000;
+	background-color:#FFF;
+	background-image: url(../images/bg_home.jpg);
+	background-position:center top;
+	/*background-attachment: fixed;*/
+	background-repeat:no-repeat;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+a{
+	color:#ffcc00;
+	text-decoration:none;
+}
+a:hover {
+	color:#d1a90b;
+	text-decoration:none;
+}
+#bgHead{
+	background-color:#FFF;
+}
+#header{
+	width:980px;
+	margin:0 auto;
+}
+#content{
+	width:980px;
+	padding:15px 15px;
+	margin:0 auto;
+}
+#footer{
+	width:980px;
+	padding:15px 15px;
+	margin:0 auto;
+}
+#lineNav{
+	height:1px;
+	background-color:#d1d1d1;
+}
+#navL{
+	padding:20px 15px;
+	line-height:22px;
+	margin:15px 0 0 0;
+	background-color:#ffcc00;
+}
+#navL a{
+	color:#000;
+	text-decoration:none;
+}
+#navL a:hover, #navL a.active {
+	color:#FFF;
+	text-decoration:underline;
+}
+#nav{
+	padding:15px;
+}
+#nav a{
+	color:#333;
+	text-decoration:none;
+}
+#nav a:hover, #nav a.active {
+	color:#ffcc00;
+	text-decoration:none;
+}
+.logo{
+	margin:20px 0;
+}
+.navLR{
+	margin:0 15px;
+}
+
+
+
+
+#boxRegister{
+	padding-top:5px;
+}
+.boxRegister{
+	margin-left:3px;
+}
+.borMap{
+	border:#CCC 1px solid;
+	padding:1px;
+}
+.txtBlack{
+	color:#000;
+}

@@ -1,0 +1,17 @@
+/* TEAM */
+
+Besthemoth
+
+/* THANKS */							
+
+Zhen Huang
+http://themefortress.com
+
+ZURB Foundation
+http://foundation.zurb.com/
+
+Roots
+http://www.rootstheme.com/
+
+HTML5 Boilerplate
+http://html5boilerplate.com/

@@ -1,0 +1,1 @@
+[05-Mar-2014 22:11:14 Australia/Perth] PHP Fatal error:  Call to undefined function wp_verify_nonce() in /home/pepperse/public_html/wp-content/plugins/advanced-custom-fields/core/actions/export.php on line 21

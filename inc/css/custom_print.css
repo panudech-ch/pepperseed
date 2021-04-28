@@ -1,0 +1,34 @@
+@media print {
+    @page {
+        margin: 0;
+    }
+
+    body {
+        margin: 0.5cm;
+    }
+
+    @font-face {
+        font-family: 'GothamLight';
+        src: url('../fonts/GothamLight.eot');
+        src: url('../fonts/GothamLight.eot?#iefix') format('embedded-opentype'), url('../fonts/GothamLight.woff2') format('woff2'), url('../fonts/GothamLight.woff') format('woff'), url('../fonts/GothamLight.ttf') format('truetype'), url('../fonts/GothamLight.svg#GothamLight') format('svg');
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'GothamBold';
+        src: url('../fonts/Gotham-Bold.eot');
+        src: url('../fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Gotham-Bold.woff2') format('woff2'), url('../fonts/Gotham-Bold.woff') format('woff'), url('../fonts/Gotham-Bold.ttf') format('truetype'), url('../fonts/Gotham-Bold.svg#Gotham-Bold') format('svg');
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    .text-font {
+        font-family: 'GothamLight';
+    }
+    .text-font-bold{
+        font-family: 'GothamBold';
+    }
+
+}
+

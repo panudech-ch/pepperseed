@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Enrique';
+    src: url('../fonts/newdesign/Enrique-Round.otf');
+}
+
+@font-face {
+    font-family: 'TwilightScript';
+    src: url('../fonts/newdesign/TwilightScript.ttf');
+}
+
+@font-face {
+    font-family: 'GiddyupStd';
+    src: url('../fonts/newdesign/GiddyupStd.otf');
+}
+
+@font-face {
+    font-family: 'Bebas';
+    src: url('../fonts/newdesign/BebasNeueProRegular.otf');
+}
+
+@font-face {
+    font-family: 'BebasBold';
+    src: url('../fonts/newdesign/BebasNeueProBold.otf');
+}
+
+@font-face {
+    font-family: 'ATLANTCN';
+    src: url('../fonts/newdesign/Atlantcna.ttf');
+}
+
+.LOGO_BRAND-ATLANTCN {
+    font-family: "ATLANTCN";
+}
+
+.HEADER_MENU-Enrique {
+    font-family: "Enrique";
+}
+
+.HEADER_MENU-TwilightScript {
+    font-family: "TwilightScript";
+}
+
+.HEADER_MENU-GiddyupStd {
+    font-family: "GiddyupStd";
+}
+
+.HEADER_MENU-BebasBold {
+    font-family: "BebasBold";
+}
+
+.BODY-Enrique {
+    font-family: "Enrique";
+}
+
+.BODY-Bebas {
+    font-family: "Bebas";
+}
